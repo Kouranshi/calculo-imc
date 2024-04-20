@@ -1,0 +1,58 @@
+body {
+    background: #39566d;
+}
+
+#container {
+    width: 500px;
+    height: auto;
+    background:  white;
+    margin: auto auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 2%;
+}
+
+#resultado {
+    float: right;
+}
+
+#imc {
+    float: left;
+}
+
+#peso1 {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#peso1 #peso {
+    display: block;
+    height: 30px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+#altura1 #altura {
+    display: block;
+    height: 30px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+button {
+    width: 450px;
+    height: 70px;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #3b566d;
+    transition: all 0.3s;
+}
+
+h5 {
+    text-align: center;
+}
